@@ -1,0 +1,139 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal, 800   ;
+}
+
+.parent{
+    width: 600px;
+    height: 500px;
+    background-color: #f9fafc;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    margin: auto;
+    
+}
+.options{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    list-style: none;
+    }
+.company{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.paragraph{
+    float: left;
+    width: 50%;
+    height: 80%;
+    text-align: left;
+  position: relative;
+  top: 10%;
+  object-position: left;
+}
+.brand-name {font-size: 20pt;
+text-align: left;
+position: absolute;
+top: 0px;
+left: 0px;
+padding-bottom: 6px;
+font-weight: normal;
+}
+.click{
+    float: right;
+    padding: 0px 2px;
+    margin: 0px 5px;
+    font-size: small;
+
+
+}
+.image{
+    float: right;
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 0px;
+}
+.brand-description{
+    text-align: left;
+    border-left: solid;
+    border-width: 2px ;
+    border-radius: 0%;
+    border-color: #69696a;
+    padding-left: 10px;
+    margin: 20px 5px;
+    font-size: x-small;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50px;}
+.footer{
+    Width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.chirpus{
+    position: absolute;
+    margin: 20% 0%;
+    padding: 0px;
+    width: 100%;
+}
+.circle1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: rgba(207,130,1213,0.6);
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    opacity: 70%;
+
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 3;
+    background-color:rgba(247,193,162,0.7);
+    position: absolute;
+    right: 7%;
+    top: 45%; 
+    opacity: 90%;
+}
+.circle3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color:rgba(247,136,167,0.6);
+    position: absolute;
+    right: 20%;
+    top: 25%; 
+    opacity: 95%;
+}
+button{
+    background-color: black;
+    width: auto;
+    height: 30px;
+    color: white;
+    border-radius: 50px;
+
+}
+.hire{
+    padding: 0px 15px 0px 15px;
+    width: 90px;
+}
+.scroll{
+    padding: 2px 10px;
+    width: 110px;
+}
